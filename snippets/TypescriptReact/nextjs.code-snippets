@@ -1,16 +1,15 @@
 {
   //nextjs metadata
-    "Create a function generateMetaData": {
-    "prefix": "ngm",
+  "Create a MetaData": {
+    "prefix": "nmr",
     "body": [
-      "import type { Metadata } from 'next'",
       "",
-      "export async function generateMetadata({ params }: { params: { ${2:[slug]} }}): Promise<Metadata> {",
-      " const product = await ${1:getData}(${2:[slug]});",
-      "   return { title: product.title }",
-      "}"
+      "export const metadata = {",
+      " title: '${1:SEO Title}',",
+      " description: '${1:SEO Description}',",
+      "};"
     ],
-    "description": "Create a generateMetaData Component"
+    "description": "Create a MetaData Component"
   },
   // nextjs app router
   "Nextjs app router root layout": {
