@@ -303,7 +303,7 @@
   "Nextjs arrow function": {
     "prefix": "naf",
     "body": [
-      "export default () => {",
+      "export const ${1:${TM_FILENAME_BASE}} = () => {",
       "\treturn (",
       "\t\t<>",
       "\t\t\t${1:Enter}",
