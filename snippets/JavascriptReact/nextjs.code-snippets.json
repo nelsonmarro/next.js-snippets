@@ -1,5 +1,4 @@
 {
-  // nextjs app router
   "Nextjs app router root layout": {
     "prefix": "narootlayout",
     "body": [
@@ -426,7 +425,6 @@
     "description": "Nextjs delete request route handler"
   },
 
-  // api routes
   "Nextjs Api route": {
     "prefix": "napi",
     "body": [
@@ -544,7 +542,6 @@
     "description": "initializing page(normal function) with getStaticProps"
   },
 
-  // static generation
   "Nextjs static generation": {
     "prefix": "!!static",
     "body": [
@@ -578,7 +575,6 @@
     ]
   },
 
-  // import next components
   "Nextjs import for Link component": {
     "prefix": "nil",
     "body": ["import ${1:Link} from 'next/link';"],
