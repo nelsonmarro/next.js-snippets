@@ -7,19 +7,19 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/JavascriptReact/nextjs.code-snippets"
+        "path": "./snippets/JavascriptReact/nextjs.code-snippets.json"
       },
       {
         "language": "javascriptreact",
-        "path": "./snippets/JavascriptReact/nextjs.code-snippets"
+        "path": "./snippets/JavascriptReact/nextjs.code-snippets.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/TypescriptReact/nextjs.code-snippets"
+        "path": "./snippets/TypescriptReact/nextjs.code-snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/TypescriptReact/nextjs.code-snippets"
+        "path": "./snippets/TypescriptReact/nextjs.code-snippets.json"
       }
     ]
   },
