@@ -1,5 +1,4 @@
 {
-  //nextjs metadata
   "Create a MetaData": {
     "prefix": "nmr",
     "body": [
@@ -11,7 +10,6 @@
     ],
     "description": "Create a MetaData Component"
   },
-  // nextjs app router
   "Nextjs app router root layout": {
     "prefix": "narootlayout",
     "body": [
@@ -139,7 +137,6 @@
     ],
     "description": "Nextjs app router template"
   },
-  // new easy to use extensions
   "Nextjs page with server side props": {
     "prefix": "nspage",
     "body": [
@@ -283,8 +280,6 @@
     "body": ["<Link href='${1:path}'>${2:link}</Link>"],
     "description": "Nextjs use link element"
   },
-
-  // function snippets for pages
   "Nextjs arrow function export at the end": {
     "prefix": "nafe",
     "body": [
@@ -341,7 +336,6 @@
     ],
     "description": "Next Normal Function"
   },
-  // nextjs functions
   "Nextjs getServerSideProps": {
     "prefix": "ngsspr",
     "body": [
@@ -398,8 +392,6 @@
     ],
     "description": "Next GetInitialProps"
   },
-
-  // functions with combinations
 
   "Nextjs typescript arrow function  with getServerSideProps(DEPRECATED)": {
     "prefix": "ntsfwserver",
@@ -512,8 +504,6 @@
     ],
     "description": "initializing page(arrow function) with getStaticProps"
   },
-
-  // static generation
   "Nextjs static generation(DEPRECATED)": {
     "prefix": "!!tsstatic",
     "body": [
@@ -582,8 +572,6 @@
       "export default ${1:${TM_FILENAME_BASE}};"
     ]
   },
-
-  // import next components
   "Nextjs import for Link component": {
     "prefix": "nil",
     "body": ["import ${1:Link} from 'next/link';"],
@@ -614,7 +602,6 @@
     "body": ["import ${1:dynamic} from 'next/dynamic';"],
     "description": "next import dynamic"
   },
-  // nextjs imported components usage
   "Nextjs link component defination with href": {
     "prefix": "nulwhref",
     "body": ["<Link href='${1:path}'>${2:link}</Link>"],
@@ -652,8 +639,6 @@
     ],
     "description": "nextjs usage of Dynamic Import with named exports"
   },
-
-  // route handlers (nextjs 13)
   "Nextjs route handler get request": {
     "prefix": "nrget",
     "body": [
@@ -699,8 +684,6 @@
     ],
     "description": "Nextjs delete request route handler"
   },
-
-  // api routes
   "Nextjs Api route (DEPRECATED)": {
     "prefix": "ntsapi",
     "body": [
@@ -729,8 +712,6 @@
     ],
     "description": "Next Api Route"
   },
-
-  // custom app
   "Nextjs typescript custom app (_app.js)(DEPRECATED)": {
     "prefix": "ntscapp",
     "body": [
