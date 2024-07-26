@@ -6,22 +6,19 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript",
+        "language": [
+          "javascript",
+          "javascriptreact"
+        ],
         "path": "./snippets/JavascriptReact/nextjs-snippets.json"
       },
       {
-        "language": "javascriptreact",
-        "path": "./snippets/JavascriptReact/nextjs-snippets.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/TypescriptReact/nextjs-snippets.json"
-      },
-      {
-        "language": "typescriptreact",
+        "language": [
+          "typescript",
+          "typescriptreact"
+        ],
         "path": "./snippets/TypescriptReact/nextjs-snippets.json"
       }
     ]
-  },
-  "license": "MIT"
+  }
 }
