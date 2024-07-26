@@ -114,7 +114,6 @@
     "description": "Nextjs app router template"
   },
 
-  // new easy to use extensions
   "Nextjs page with server side props": {
     "prefix": "nspage",
     "body": [
@@ -253,7 +252,6 @@
     "description": "Nextjs use link Element"
   },
 
-  // function snippets for pages
   "Nextjs arrow function export at the end": {
     "prefix": "nafe",
     "body": [
@@ -311,7 +309,6 @@
     "description": "Next Normal Function"
   },
 
-  // nextjs functions
   "Nextjs getServerSideProps": {
     "prefix": "ngsspr",
     "body": [
@@ -398,7 +395,6 @@
     ],
     "description": "Next Custom Document (_document.js)"
   },
-  // route handlers (nextjs 13)
   "Nextjs route handler get request": {
     "prefix": "nrget",
     "body": ["export async function GET(${1:request}) {", "\t${2:}", "}"],
@@ -437,8 +433,6 @@
     ],
     "description": "Next Api Route"
   },
-
-  // functions with combinations
 
   "Nextjs arrow function (export at the end) with getServerSideProps": {
     "prefix": "nafewserver",
@@ -606,7 +600,6 @@
     "description": "next import dynamic"
   },
 
-  // nextjs imported components usage
   "Nextjs link component defination with href": {
     "prefix": "nulwhref",
     "body": ["<Link href='${1:path}'>${2:link}</Link>"],
