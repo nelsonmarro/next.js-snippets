@@ -1,24 +1,27 @@
 {
   "name": "nextjs-snippets",
   "engines": {
-    "vscode": "^1.11.0"
-  },
+        "vscode": "^1.11.0"
+    },
   "contributes": {
     "snippets": [
       {
-        "language": [
-          "javascript",
-          "javascriptreact"
-        ],
-        "path": "./snippets/JavascriptReact/nextjs-snippets.json"
+        "language": "javascript",
+        "path": "./snippets/JavascriptReact/nextjs.code-snippets.json"
       },
       {
-        "language": [
-          "typescript",
-          "typescriptreact"
-        ],
-        "path": "./snippets/TypescriptReact/nextjs-snippets.json"
+        "language": "javascriptreact",
+        "path": "./snippets/JavascriptReact/nextjs.code-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/TypescriptReact/nextjs.code-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/TypescriptReact/nextjs.code-snippets.json"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }
